@@ -19,7 +19,11 @@
   "homepage": "https://github.com/jadwigastafin/cypress_training#readme",
   "devDependencies": {
     "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
     "eslint": "^8.1.0",
     "eslint-plugin-cypress": "^2.12.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
